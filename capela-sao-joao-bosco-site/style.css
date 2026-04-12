@@ -72,6 +72,13 @@ section {
     
 }
 
+.obs {
+    background-color: #c2c2c293;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
 #botao-acessar {
     display: inline-block;
     background-color: #c9a646;

@@ -21,4 +21,4 @@ O projeto foi criado para praticar HTML e CSS, além de oferecer uma solução s
 - CSS3
 
 ## Acesse o Site
-<a href="https://github.io/julianomouradev/juliano-dev-portfolio/capela-sao-joao-bosco-site" target="_blank">Clique aqui para acessar!</a>
+<a href="https://github.com/julianomouradev/juliano-dev-portfolio/capela-sao-joao-bosco-site" target="_blank">Clique aqui para acessar!</a>

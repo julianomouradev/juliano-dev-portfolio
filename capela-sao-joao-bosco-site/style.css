@@ -39,6 +39,10 @@ header > h1 {
     padding: 45px 0px 40px 0px;
 }
 
+nav {
+    padding-bottom: 10px;
+}
+
 nav > a {
     color: #f5f5f5;
     text-decoration: none;

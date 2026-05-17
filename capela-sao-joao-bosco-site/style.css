@@ -2,13 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 
-/*
-  font-family: "Gelasio", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-*/
-
 * {
     padding: 0px;
     margin: 0px;
@@ -22,47 +15,87 @@ body {
     font-family: "Gelasio", serif;
     font-weight: normal;
     font-size: 1.1em;
-    background-color: #f5f5f5;
+    background-color: #e0e0e096;
     color: #222222;
 
 }
 
 header {
     background-color: #024059;
-    color: #f5f5f5;
-    border-bottom: 3px solid #c9a646;
+    color: white;
+}
+
+.header-topo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 120px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 16px;
+}
+
+.header-topo img {
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    
+}
+
+.divisor {
+    width: 2px;
+    height: 60px;
+    background-color: #c9a64b;
+}
+
+.titulo h1 {
+    margin: 0;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.titulo h1:hover {
+   color: #c9a646;
+}
+
+.titulo p {
+    margin: 2px 0 0;
+    font-size: 0.8em;
+    color: #ccc;
+    opacity: 0.9;
+}
+
+.nav-header {
     text-align: center;
-
+    background-color: #013144;
+    padding: 10px 0;
 }
 
-header > h1 {
-    padding: 45px 0px 40px 0px;
-}
-
-nav {
-    padding-bottom: 10px;
-}
-
-nav > a {
-    color: #f5f5f5;
+.nav-header a {
+    font-size: 16px;
+    padding-left: 15px;
+    color: white;
     text-decoration: none;
-    padding: 5px;
-
 }
 
-nav > a:hover {
+.nav-header a:hover {
     color: #c9a646;
+    text-decoration: underline;
 }
 
 main {
     max-width: 800px;
     margin: auto;
-    
+    background-color: #f5f5f5;
+    box-shadow: 1px 0px 9px rgba(0, 0, 0, 0.438);
 }
 
-h2 {
+main > section > h2 {
+    font-weight: 600;
     color: #c9a646;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+
 }
 
 h3 {
@@ -71,9 +104,15 @@ h3 {
 }
 
 section {
-    padding: 50px 30px 50px 30px;
+    padding: 40px 17px 50px 17px;
     border-top: 2px solid #dddddd;
+    margin-bottom: 35px;
     
+}
+
+#ul-horarios {
+    margin-left: 20px;
+    list-style-position: inside;
 }
 
 .obs {
@@ -81,6 +120,7 @@ section {
     border-radius: 10px;
     margin-top: 15px;
     padding: 5px;
+    outline: .5px solid #c9a646;
 }
 
 #botao-acessar {
@@ -95,13 +135,75 @@ section {
 
 #botao-acessar:hover {
     text-decoration: underline;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.603);
+    transition: transform .3s, border 1s;
+}
+
+#p-instagram-capela {
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+#a-instagram-capela {
+    display: inline-block;
+    outline: 2px solid #c9a646;
+    color: #e6bb46;
+    text-decoration: none;
+    margin-top: 10px;
+    padding:  7px 47px 7px 47px;
+    border-radius: 15px;
+}
+
+#a-instagram-capela:hover {
+    background-color: #c9a646;
+    color: white;
+    text-decoration: underline;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.603);
+    transition: transform .3s, border 1s;
+}
+
+#localizacao {
+    margin-bottom: 0px;
+}
+
+#address-loc {
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+#address-loc > a {
+    text-decoration: none;
+    color: black;
+}
+
+#address-loc > a:hover {
+    color: #99791f;
 }
 
 #iframe-localizacao {
     width: 100%;
-    height: 300px;
-    padding: 10px 0px 10px 0px;
+    height: 310px;
     display: block;
+}
+
+#loc-links {
+    margin: 0px;
+    padding: 8px;
+    background-color: #024059;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+
+}
+
+#loc-links > a {
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#loc-links > a:hover {
+    color: #c9a646;
+    text-decoration: underline;
 }
 
 footer {
@@ -112,10 +214,35 @@ footer {
     text-align: center;
 }
 
+.p-footer {
+    margin-top: 12px;
+}
+
+#div-brasoes-footer {
+    display: flex;
+    width: 79px;
+    height: 55px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: cover;
+}
+
+#brasao-capela-footer {
+    margin-top: 5px;
+    
+}
+
+#credito-juliano {
+    margin: 15px 0px;
+}
+
 #ig {
     color: #c2c2c2;
     text-decoration: none;
 }
 
-
-
+#ig:hover {
+    color: #c9a646;
+    text-decoration: underline;
+}
